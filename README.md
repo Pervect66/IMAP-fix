@@ -1,7 +1,7 @@
 # IMAP-fix
  Tool to fix imported IMAP folders in Outlook
 
-Download the most recent version: https://github.com/Pervect66/IMAP-fix/blob/ecd02afa15208f9c0504df71d81748d8cf5572e6/IMAP-fix.vbs
+Download the most recent version: [IMAP-fix.vbs](https://github.com/Pervect66/IMAP-fix/blob/ecd02afa15208f9c0504df71d81748d8cf5572e6/IMAP-fix.vbs)
 
 Run IMAP-fix.vbs, choose the folder that needs to be fixed.
 
