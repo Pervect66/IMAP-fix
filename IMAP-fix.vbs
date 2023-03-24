@@ -1,5 +1,5 @@
 ' Geïmporteerde IMAP structuur vervangen door IPF.Note
-' © 2021-2023 Jan Boezeman voor Microsoft M365 Support 
+' © 2023 Jan Boezeman voor Microsoft M365 Support 
 
 Dim i
 
