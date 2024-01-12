@@ -3,7 +3,7 @@
 
 Dim i
 
-MsgBox "Maak alle Outlook items zichtbaar na IMAP-import", vbInfo+vbSystemModal, "IMAP-fix"
+MsgBox "Machen Sie Outlook-Elemente nach dem IMAP-Import sichtbar", vbInfo+vbSystemModal, "IMAP-fix"
 
 Call FolderSelect()
 
@@ -16,7 +16,7 @@ Public Sub FolderSelect()
 
   If Not F Is Nothing Then
     Dim Result
-    Result = MsgBox("Wilt u alle onderliggende mappen ook repareren?", vbYesNo+vbDefaultButton2+vbSystemModal, "Alle mappen?")
+    Result = MsgBox("Möchten Sie auch alle Unterordner reparieren??", vbYesNo+vbDefaultButton2+vbSystemModal, "Alle Ordner?")
 
     i = 0
     FixIMAPFolder(F)
@@ -26,7 +26,7 @@ Public Sub FolderSelect()
       LoopFolders Folders
     End If
 
-    Result = MsgBox("Klaar!" & vbNewLine & i & " map(pen) zijn hersteld.", vbInfo+vbSystemModal, "IMAP mappen hersteld")
+    Result = MsgBox("Fertig!" & vbNewLine & i & " Alle Ordner wurden repariert!", vbInfo+vbSystemModal, "IMAP-Ordner wiederhergestellt")
   
     Set F = Nothing
     Set Folders = Nothing
